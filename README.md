@@ -14,3 +14,7 @@ Class / Interface / Method
 ### Demeter Principle
 Member variable, input parameters and return value
 ![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/demeter.png)
+## Design Patterns
+### Simple Factory
+Use java reflection
+![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/simplefactory.png)
