@@ -18,3 +18,6 @@ Member variable, input parameters and return value
 ### Simple Factory
 Use java reflection
 ![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/simplefactory.png)
+### Factory Method
+Use parent abstract class
+![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/factorymethod.png)
