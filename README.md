@@ -19,5 +19,16 @@ Member variable, input parameters and return value
 Use java reflection
 ![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/simplefactory.png)
 ### Factory Method
-Use parent abstract class
-![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/factorymethod.png)
+#### Example Logic
+<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/factorymethod.png" width="50%" height="50%"></br>
+### Factory Used In JDK
+#### Example 1
+1. **Iterator** interface -> **Video** abstract class (abstract product)
+2. iterator() in **Collection** interface -> **VideoFactory** abstract class
+3. iterator() in **ArrayList** class (implements **Collection**) -> **JavaVideoFactory** class
+4. **Itr** class in **ArrayList** implements Iterator -> **JavaVideo** class (actual product)
+#### Example 2
+1. **URLStreamHandlerFactory** interface -> **VideoFactory**
+2. **Factory** in Launcher.class -> **JavaVideoFactory**
+3. **URLStreamHandler** abstract class -> **Video**
+4. use reflection Class.forName(actual class path) -> **JavaVideo**
