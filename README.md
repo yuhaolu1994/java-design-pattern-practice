@@ -2,13 +2,13 @@
 ## SOLID
 ### Open/closed Principle
 Open for extention, close for implementation
-![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/open-close.png)
+<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/open-close.png" width="80%" height="80%"></br>
 ### Dependency Inversion Principle
 Interface oriented coding
-![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/dependency-inversion.png)
+<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/dependency-inversion.png" width="80%" height="80%"></br>
 ### Single Responsibility Principle
 Class / Interface / Method
-![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/single-responsibility.png)
+<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/single-responsibility.png" width="80%" height="80%"></br>
 ### Interface Segregation Principle
 ![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/interface-segregation.png)
 ### Demeter Principle
@@ -20,7 +20,7 @@ Use java reflection
 ![](https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/simplefactory.png)
 ### Factory Method
 #### Example Logic
-<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/factorymethod.png" width="50%" height="50%"></br>
+<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/factorymethod.png" width="80%" height="80%"></br>
 ### Factory Used In JDK
 #### Example 1
 1. **Iterator** interface -> **Video** abstract class (abstract product)
@@ -32,3 +32,6 @@ Use java reflection
 2. **Factory** in Launcher.class -> **JavaVideoFactory**
 3. **URLStreamHandler** abstract class -> **Video**
 4. use reflection Class.forName(actual class path) -> **JavaVideo**
+### Abstract Factory Method
+Product group, not same product grade
+<img src="https://github.com/yuhaolu1994/java-design-pattern-practice/blob/master/src/main/resources/art/abstractfactory.png">
